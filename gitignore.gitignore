@@ -1,0 +1,68 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+*.key
+*.pem
+*.crt
+credentials.json
+config.json
+
+# Mac system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Data files - optional
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.json
+
+# Model files - optional
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Output folders
+outputs/
+results/
+reports/
+figures/
+
+# Node.js if used
+node_modules/
+
+# Build files
+dist/
+build/
+*.egg-info/
